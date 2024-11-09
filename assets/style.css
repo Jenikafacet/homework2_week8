@@ -1,0 +1,219 @@
+header {
+    padding-top: 90px;
+    padding-right: 74px;
+    padding-left: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.basket {
+    position: relative;
+    background-color: rgba(82, 34, 208, 1);
+    width: 115px;
+    height: 38px;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.basket::after {
+    background-image: url("/assets/img/basket.svg");
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 10px;
+    right: 14px;
+}
+
+.basket a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+
+.about__text-box {
+    margin-left: 126px;
+    margin-top: 76px;
+    width: 487px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.about__text-box::after {
+    background-image: url("/assets/img/pic.svg");
+    content: "";
+    position: absolute;
+    width: 753px;
+    height: 724.31px;
+    top: -77.89px;
+    left: 528px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about__card {
+    position: relative;
+    background-color: rgba(82, 34, 208, 1);
+    margin-left: 116px;
+    margin-top: 30px;
+    width: 270px;
+    height: 84px;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.about__card::after {
+    background-image: url("/assets/img/card.svg");
+    content: "";
+    position: absolute;
+    width: 41.72px;
+    height: 28.74px;
+    top: 27.56px;
+    right: 27.69px;
+}
+
+.about__card a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-left: 33px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 34px;
+    margin-left: 126px;
+    padding-top: 146px;
+    padding-bottom: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(82, 34, 208, 1);
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.footer-page2 {
+    padding-top: 112px;
+}
+
+.footer-page2 a{
+    color: black;
+}
+
+.possibilities__wrapper {
+    padding-left: 125px;
+    padding-top: 89px;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.possibilities__items-box {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 73px;
+    row-gap: 25px;
+}
+
+.possibilities__item {
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.possibilities__item:last-of-type {
+    background-color: rgba(236, 97, 91, 1);
+    height: 233px;
+}
+
+.possibilities__item-title-news {
+    padding-left: 18px;
+    color: white;
+}
+
+input {
+    width: 323px;
+    height: 50px;
+    margin-top: 6px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 14px;
+}
+
+.possibilities__subscribe-button {
+    background-color: rgba(82, 34, 208, 1);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+    margin-top: 23px;
+}
